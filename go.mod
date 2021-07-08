@@ -2,19 +2,19 @@
 
 module k8s.io/component-helpers
 
-go 1.15
+go 1.16
 
 require (
-	github.com/google/go-cmp v0.5.2
-	k8s.io/api v0.0.0-20210113165900-cb95709d38de
-	k8s.io/apimachinery v0.0.0-20210114005653-53a9c91c2218
-	k8s.io/client-go v0.0.0-20210112050101-623741e9c1d5
-	k8s.io/klog/v2 v2.4.0
-	k8s.io/utils v0.0.0-20201110183641-67b214c5f920
+	github.com/google/go-cmp v0.5.5
+	k8s.io/api v0.0.0-20210708014407-1e1dad4bd9d1
+	k8s.io/apimachinery v0.0.0-20210708014216-0dafcb48b31e
+	k8s.io/client-go v0.0.0-20210708094636-69e00b04ba4c
+	k8s.io/klog/v2 v2.9.0
+	k8s.io/utils v0.0.0-20210707171843-4b05e18ac7d9
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20210113165900-cb95709d38de
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20210114005653-53a9c91c2218
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20210112050101-623741e9c1d5
+	k8s.io/api => k8s.io/api v0.0.0-20210708014407-1e1dad4bd9d1
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20210708014216-0dafcb48b31e
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20210708094636-69e00b04ba4c
 )
